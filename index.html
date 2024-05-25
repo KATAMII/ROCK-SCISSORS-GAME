@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="game">
+            <div class="header">
+                <p class="head">&copy; 2024 <a href="https://github.com/Katamii"target="blank">Lydia Mwangi</a></p>
+                <p class="score" id="scoreRoll">computer <span id="compscore"> 0</span> <span id="playerscore"> 0</span>  player</p>
+            </div>
+            <div class="player1">
+                <p class="firstplayer" id="computerplay">Computer</p>
+                <p class="emoji" id="computer-choice-emoji">✌️</p>
+            </div>
+            <div class="winner-announcement">
+                <p class="winner-announcement1"id="winner-announcement1">Currently Draw</p>
+            </div>
+            <div class="player2">
+                <p class="secondplayer"id="player">Player</p>
+                <p class="emoji" id="player-choice-emoji">✌️</p>
+            </div>
+        </div>
+        <div class="choices">
+            <button class="choice" id="rock">
+                <p class="button-emoji">✊</p>
+                <p class="choice1">Rock</p>
+            </button>
+            <button class="choice" id="paper">
+                <p class="button-emoji">✋</p>
+                <p class="choice1">paper</p>
+            </button>
+            <button class="choice" id="scissors">
+                <p class="button-emoji">✌️</p>
+                <p class="choice1">scissors</p>
+            </button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
