@@ -122,3 +122,9 @@
  }
 
 }
+@media screen and (max-width:420px) {
+ .app{
+    margin-left: 0rem;
+ }
+
+}
